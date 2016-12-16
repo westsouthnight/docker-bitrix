@@ -45,3 +45,4 @@ service nginx start
 service sshd start
 
 echo "bitrix:$SSH_PASS" | chpasswd
+while true; do echo ok; sleep 3; done
